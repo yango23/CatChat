@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CatChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="help_blank_fragment">Help blank fragment</string>
+    <string name="inbox_blank_fragment">Inbox blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sent_items">Sent items</string>
+    <string name="inbox_bottom_title">Inbox</string>
+    <string name="sent_bottom_title">Sent</string>
+    <string name="help_bottom_title">Help</string>
+</resources>
