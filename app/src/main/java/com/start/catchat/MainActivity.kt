@@ -24,9 +24,10 @@ class MainActivity : AppCompatActivity() {
         val toolbar = findViewById<MaterialToolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        val navHostFragment = supportFragmentManager.
-        findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
         val navController = navHostFragment.navController
+
         val drawNavView = findViewById<NavigationView>(R.id.nav_view)
         NavigationUI.setupWithNavController(drawNavView, navController)
         val drawer = findViewById<DrawerLayout>(R.id.drawer_layout)
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         val builder = AppBarConfiguration.Builder(navController.graph)
         builder.setOpenableLayout(drawer)
         val appBarConfiguration = builder.build()
-        toolbar.setupWithNavController(navController,appBarConfiguration)
+        toolbar.setupWithNavController(navController, appBarConfiguration)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

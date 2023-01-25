@@ -21,7 +21,6 @@
                     android:icon="@android:drawable/ic_dialog_email"
                     android:title="Help" />
             </group>
-            >
         </menu>
     </item>
 
